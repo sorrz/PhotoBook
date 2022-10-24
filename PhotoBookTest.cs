@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PhotoBook
+﻿namespace PhotoBook
 {
     internal class PhotoBookTest : BigPhotoBook
     {
@@ -15,9 +9,9 @@ namespace PhotoBook
             int secondT = new PhotoBook(24).GetNumberPages();
             int thirdT = new BigPhotoBook().GetNumberPages();
 
-            return  $"Test 1:   Book with {firstT}  pages created.\n" +
+            return $"Test 1:   Book with {firstT}  pages created.\n" +
                     $"Test 2:   Book with {secondT} pages created.\n" +
-                    $"Test 3:   Book with {thirdT}  pages created.\n" ;
+                    $"Test 3:   Book with {thirdT}  pages created.\n";
         }
     }
 }

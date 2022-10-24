@@ -10,21 +10,21 @@
             Console.WriteLine("2.   To make a PhotoBook by passing in the number of pages, using the Method to CreatePages");
             Console.WriteLine("3.   Create a Big Photo Book with 64 pages by calling a different Class with inheritance and a Get Set");
             Console.WriteLine("");
-            Console.WriteLine(PhotoBookTest.Test());    
-            
+            Console.WriteLine(PhotoBookTest.Test());
+
 
             // End of Main
         }
 
-       
-
-         
 
 
-          
+
+
+
+
     }
 
 
 
-        // End of Program
+    // End of Program
 }
